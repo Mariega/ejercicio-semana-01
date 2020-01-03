@@ -1,0 +1,93 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background: #ebebeb;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: blanchedalmond;
+}
+article {
+display: inline-block;
+background: black;
+text-align: center;
+margin-top: 120px;
+border-radius: 18px;
+box-shadow: 0px 0px 20px #939393;
+}
+img {
+border-top-left-radius: 18px;
+border-top-right-radius: 18px;
+}
+
+li {
+list-style: none;
+}
+a {
+color: inherit;
+}
+
+.top {
+position: relative;
+}
+.letters {
+position: absolute;
+bottom: 100px;
+width: 100%;
+text-align: center;
+color: whitesmoke;
+background: none;
+padding: 100px;
+box-sizing: border-box;
+font-size: 60px;
+font-kerning:inherit ;
+}
+
+ul {
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 20px;
+}
+
+.bottom {
+padding-top: 30px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 20px;
+text-align: center;
+font-size: 18px;
+}
+.fas{
+  size: 5px;
+}
+
+img {
+display: block;
+}
+
+li {
+text-align: center;
+}
+
+li a {
+color: #ec3eb8;
+display: inline-block;
+margin-top: 6px;
+}
+
+a {
+text-decoration: none;
+}
+
+.Follow {
+padding: 10px;
+background-color: magenta;
+color: white;
+border-radius: 50px;
+display: inline-block;
+width: 140px;
+}
+.Follow:hover{background-color:violet;}
